@@ -84,6 +84,14 @@ class Dictionary:
             return None
         return res[0]
 
+    def get_rth(self, word):
+        query = 'SELECT keyword FROM rth WHERE hanzi=?'
+        self.c.execute(query, (word,))
+        res = self.c.fetchone()
+        if not res:
+            return None
+        return res[0]
+
     def get_pinyin(self, word, type_, prefer_tw=False, word_len=4):
         p = self._get_word_pinyin(word, type_, prefer_tw)
         if p:

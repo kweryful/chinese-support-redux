@@ -1,0 +1,70 @@
+select * from cidian where simplified = "吗" and pinyin = "ma3"
+select * from cidian where simplified = "打" and pinyin = "da2"
+select * from cidian where simplified = "要"  and pinyin = "yao1"
+select * from cidian where simplified = "都"  and pinyin = "du1"
+select * from cidian where simplified = "离"  and pinyin = "chi1"
+select * from cidian where simplified = "还"  and pinyin = "huan2"
+select * from cidian where simplified = "看"  and pinyin = "kan1"
+select * from cidian where simplified = "上"  and pinyin = "shang3"
+select * from cidian where simplified = "待"  and pinyin = "dai4"
+select * from cidian where simplified = "得"  and pinyin = "de2"
+select * from cidian where simplified = "说"  and pinyin = "shui4"
+select * from cidian where simplified = "骑"  and pinyin = "ji4"
+select * from cidian where simplified = "为"  and pinyin = "wei2" and english like "as%"
+select * from cidian where simplified = "更"  and pinyin = "geng1"
+select * from cidian where simplified = "听"  and pinyin = "yin3"
+select * from cidian where simplified = "跑"  and pinyin = "pao2" 
+select * from cidian where simplified = "着"  and pinyin = "zhao1" 
+select * from cidian where simplified = "着"  and pinyin = "zhao2" 
+select * from cidian where simplified = "处"  and pinyin = "chu3" 
+select * from cidian where simplified = "弹"  and pinyin = "dan4" 
+select * from cidian where simplified = "吧"  and pinyin = "ba1" 
+select * from cidian where simplified = "便宜"  and pinyin = "bian4 yi2" 
+select * from cidian where simplified = "那"  and pinyin = "na1" 
+select * from cidian where simplified = "那"  and pinyin = "nuo2"
+select * from cidian where simplified = "那"  and pinyin = "na3"  
+
+update cidian
+set pinyin = "yi4 qi3"
+where simplified = "一起"
+
+update cidian
+set pinyin = "bu2 guo4"
+where simplified = "不过"
+
+update cidian
+set pinyin = "ge"
+where simplified = "个"
+
+update cidian
+set pinyin = "yi2 ge"
+where simplified = "一个"
+and pinyin = "yi1 ge4"
+
+蛋糕		dan4 gao1
+不能 	bu4 neng2
+可能		ke3 neng2
+客人		ke4 ren2
+一年		yi1 nian2
+一个人	yi1 ge4 ren2
+新冠		xin1 guan1
+去年		qu4 nian2
+难过		nan2 guo4
+
+喝	he1 	not he4
+数	shu3 	not shu4
+瘦	shou4 	not sou4
+万	wan4	not wànmò
+约	yue1 	not yao1
+脏	zang1	not zang4
+
+这儿
+加拿大
+尽管
+饭馆
+大夫
+饭馆儿
+合 he2 not ge
+参观
+严格
+纪念

@@ -68,6 +68,12 @@ def get_alt(hanzi, note):
         if get_first(config['fields']['alternative'], note) == '':
             set_all(config['fields']['alternative'], note, to=alt)
     return ''
+    
+def fill_rth(hanzi, note):
+    return ''
+
+def fill_all_rth(Qs, note):
+    return ''
 
 
 def fill_def(hanzi, note, lang):
